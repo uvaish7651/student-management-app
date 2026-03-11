@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/students";
+const API = "https://student-management-app-5lmk.onrender.com/students";
 
 export const getStudents = () => axios.get(API);
 export const addStudent = (data) => axios.post(API, data);
